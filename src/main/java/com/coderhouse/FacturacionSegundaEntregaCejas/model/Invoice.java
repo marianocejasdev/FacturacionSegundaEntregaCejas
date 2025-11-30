@@ -69,4 +69,9 @@ public class Invoice {
     public void setTotal(BigDecimal total) {
         this.total = total;
     }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
 }

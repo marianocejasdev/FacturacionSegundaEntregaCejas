@@ -13,10 +13,9 @@
     </parent>
 
     <groupId>com.coderhouse</groupId>
-    <artifactId>FacturacionSegundaEntregaCejas</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>FacturacionSegundaEntregaCejas</name>
-    <description>Demo project for Spring Boot</description>
+<artifactId>FacturacionEntregaProyectoFinalCejas</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<name>FacturacionEntregaProyectoFinalCejas</name>
 
     <!-- para que genere un .jar ejecutable -->
     <packaging>jar</packaging>
@@ -54,15 +53,13 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-
-        <!-- nombre del jar final para la entrega -->
-        <finalName>FacturacionSegundaEntregaCejas</finalName>
-    </build>
+    <finalName>FacturacionEntregaProyectoFinalCejas</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
